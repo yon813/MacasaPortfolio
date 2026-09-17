@@ -809,7 +809,12 @@ img{
         row-gap: 2.5rem;
         padding-top: 6rem;
     }
- 
+    
+    .home-description {
+    text-align: justify;
+    width: 100%;
+    }
+
     .home-title {
         font-size: 4.5rem;
     }
@@ -826,6 +831,7 @@ img{
     .home-social {
         flex-direction: row;
         column-gap: 1.5rem;
+        justify-content: center;
     }
  
     .about-content {
