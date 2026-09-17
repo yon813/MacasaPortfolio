@@ -134,7 +134,7 @@ img{
     justify-content: space-between;
     column-gap: 3rem;
     height: 4.5rem;
-}
+} 
 
 .nav__logo,
 .nav-link {
@@ -291,7 +291,7 @@ img{
 
 .about-description {
     color: var(--primary-color);
-    font-size: var(--large-font-size);
+    font-size: var(--small-font-size);
     line-height: 1.75;
     margin-bottom: 1.5rem;
     text-align: justify;
@@ -788,11 +788,14 @@ img{
         align-items: center;
     }
 
-    .nav-close,
     .nav-toggle {
-        display: block;
-        font-size: 1.5rem;
-        cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    }
+
+    .nav-close {
+    display: none;
     }
 
     .nav-close {
@@ -844,6 +847,10 @@ img{
  
     .about-info {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about-description {
+        text-align: justify;
     }
  
     .skills-content {
