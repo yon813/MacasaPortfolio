@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <title>Eunice Joanne Macasa Portfolio</title>
+</head>
+<body>
+
+    <header class = "header">
+        <nav class = "nav container">
+            <a href="#" class = "nav__logo">EUNICE JOANNE</a>
+
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">HOME</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a href="#skills" class="nav-link">SKILLS</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a href="#certificates" class="nav-link">CERTIFICATES</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a href="#contacts" class="nav-link">CONTACT</a>
+                    </li>
+
+                </ul>
+
+                <i class="ri-close-line nav-close"></i>
+            </div>
+
+            <div class="nav-btns">
+                <div class="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>    
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-data">
+                    <h1 class= "home-title">Eunice Joanne Macasa</h1>
+                    <h3 class = "home-subtitle">COMPUTER ENGINEERING STUDENT</h3>
+
+                    <p class="home-description">I am a Computer Engineering student at the Mapua Malayan Colleges Mindanao.
+                         I am passionate about technology and programming, and I am always eager to learn new skills
+                          and take on new challenges.
+                    </p>
+
+                    <a href="#" class="button">My Projects</a>
+                </div>
+
+                <div class="home-img-wrapper">
+                    <img src="assets/img/profilepicture.png" alt="" class="home-img">
+                </div>
+
+                <div class="home-social grid">
+                    <a href="https://www.linkedin.com/in/eunice-joanne-macasa-683360327/"target="_blank" class="home-social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+
+                    <a href="https://github.com/yon813"target="_blank" class="home-social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== about ====================-->
+
+        <section class="about section" id="about">
+            <div class="about-container container">
+
+                <div class="about-experience">
+                    <span class="about-no">01</span>
+                    <span class="about-line"></span>
+                    <h3 class="about-title">ABOUT ME</h3>
+                </div>
+
+                <div class ="about-content">
+
+                    <div class="about-img-wrapper">
+                        <img src="assets/img/profilepicture.png" alt="About Me" class="about-img">
+                    </div>
+
+                <div class = "about-data">
+                    <p class="about-description">
+                        I am a Computer Engineering student at the Mapua Malayan Colleges Mindanao. 
+                        I am passionate about technology and programming, and I am always eager to
+                         learn new skills and take on new challenges. I have experience in programming 
+                         languages such as C, C++, Java, and Python, as well as web development technologies
+                          such as HTML, CSS, and JavaScript. I am also familiar with database management systems
+                           such as MySQL and MongoDB.
+                    </p>
+
+                    <p class="about-description">
+                        My interests sit at the intersection of programming, hardware, and
+                        software development. I enjoy turning concepts into working
+                        prototypes and creating clean, thoughtful designs along the way.
+                    </p>
+
+                    <div class="about-info">
+                       <div class = "about-info-box">
+                            <span>FOCUS</span>
+                            <p>Software</p>
+                       </div>
+
+                       <div class = "about-info-box">
+                            <span>BASED</span>
+                            <p>Davao City, Philippines</p>
+                        </div>    
+
+                         <div class="about-info-box">
+                            <span>STATUS</span>
+                            <p>Undergraduate</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div> 
+         </div>          
+        </section>
+
+        <!--==================== skills ====================-->
+        <section class="skills section" id="skills">
+            
+            <div class="skills-container container">
+
+                <div class="skills-heading">
+                    <span class="about-no">02</span>
+                    <span class="about-line"></span>
+                    <h3 class="about-title">MY SKILLS</h3>
+                </div>
+
+                <div class="skills-content grid">
+
+                <article class="skills-card">
+                    <span class="skills-no">01</span>
+
+                    <h3 class="skills-title">Programming Languages</h3>
+                    <p class="skills-description">Proficient in C, C++, Java, and Python.</p>
+
+                </article>
+
+                 <article class="skills-card">
+                    <span class="skills-no">02</span>
+
+                    <h3 class="skills-title">Web Development</h3>
+                    <p class="skills-description">Experience with HTML, CSS, JavaScript, and various web frameworks.</p>
+
+                </article>
+
+                 <article class="skills-card">
+                    <span class="skills-no">03</span>
+
+                    <h3 class="skills-title">Creative</h3>
+                    <p class="skills-description">Graphic Design, UI/UX Design</p>
+
+                </article>
+
+                 <article class="skills-card">
+                    <span class="skills-no">04</span>
+
+                    <h3 class="skills-title">Hardware</h3>
+                    <p class="skills-description">Experience with circuit design, microcontrollers, and embedded systems.</p>
+
+                </article>
+
+                <article class="skills-card">
+                    <span class="skills-no">05</span>
+
+                    <h3 class="skills-title">Tools</h3>
+                    <p class="skills-description">Git, Docker, VS Code</p>
+
+                </article>
+
+                <article class="skills-card">
+                    <span class="skills-no">06</span>
+
+                    <h3 class="skills-title">Soft Skills</h3>
+                    <p class="skills-description">Communication, teamwork, problem-solving</p>
+
+                </article>
+            </div>
+        </div>
+        </section>
+
+        <!--==================== projects ====================-->
+        <section class="projects section" id="projects">
+    <div class="projects-container container">
+
+        <div class="projects-heading">
+            <span class="about-no">03</span>
+            <span class="about-line"></span>
+            <h3 class="about-title">MY PROJECTS</h3>
+        </div>
+        <p class="projects-subtitle">A collection of software projects that showcase my creativity, technical skills, and problem-solving.</p>
+
+        <div class="projects-content grid">
+            <div class="projects-swiper swiper">
+                <div class="swiper-wrapper">
+
+                    <article class="projects-card swiper-slide">
+                        <a href="#" target="_blank" class="projects-link">
+                            <img src="assets/img/Project1.png" alt="" class="projects-img">
+                            <span class="projects-tag">PRJ.01 / GAME</span>
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Fongker Escape</h3>
+                            <p class="projects-description">
+                                A 2D escape game where players navigate obstacles, avoid dangers, and find their way out while completing challenges.
+                            </p>
+
+                            <ul class="projects-tags">
+                                <li>Game Dev</li>
+                                <li>Design</li>
+                            </ul>
+
+                            <div class="projects-links">
+                                <a href="#" target="_blank" class="projects-github"><i class="ri-github-fill"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card swiper-slide">
+                        <a href="#" target="_blank" class="projects-link">
+                            <img src="assets/img/Project2.png" alt="" class="projects-img">
+                            <span class="projects-tag">PRJ.02 / HEALTH</span>
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Dengue Forecast</h3>
+                            <p class="projects-description">
+                                A machine learning project that analyzes dengue data to forecast possible dengue cases and identify patterns in dengue outbreaks.
+                            </p>
+
+                            <ul class="projects-tags">
+                                <li>Data Science</li>
+                                <li>Forecasting</li>
+                                <li>Public Health</li>
+                            </ul>
+
+                            <div class="projects-links">
+                                <a href="#" target="_blank" class="projects-github"><i class="ri-github-fill"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card swiper-slide">
+                        <a href="#" target="_blank" class="projects-link">
+                            <img src="assets/img/Project3.jpg" alt="" class="projects-img">
+                            <span class="projects-tag">PRJ.03 / WELLNESS</span>
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">MoodTrack</h3>
+                            <p class="projects-description">
+                                A simple mood-tracking app that allows users to record their daily moods and monitor their emotional patterns over time.
+                            </p>
+
+                            <ul class="projects-tags">
+                                <li>WELLNESS</li>
+                                <li>MOOD</li>
+                            </ul>
+
+                            <div class="projects-links">
+                                <a href="#" target="_blank" class="projects-github"><i class="ri-github-fill"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card swiper-slide">
+                        <a href="#" target="_blank" class="projects-link">
+                            <img src="assets/img/Project4.png" alt="" class="projects-img">
+                            <span class="projects-tag">PRJ.04 / MOBILITY</span>
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">SakayPH</h3>
+                            <p class="projects-description">
+                                A commuter-focused platform that helps users track jeepneys, check estimated arrival times, and find available rides more easily.
+                            </p>
+
+                            <ul class="projects-tags">
+                                <li>UX/UI</li>
+                                <li>Mapping</li>
+                                <li>Mobility</li>
+                            </ul>
+
+                            <div class="projects-links">
+                                <a href="https://canva.link/0x7919cptq5pq51" target="_blank" class="projects-github">
+                                <i class="ri-file-ppt-2-line"></i> Canva</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects-card swiper-slide">
+                        <a href="#" target="_blank" class="projects-link">
+                            <img src="assets/img/profilepicture.png" alt="" class="projects-img">
+                            <span class="projects-tag">PRJ.05 / E-Commerce</span>
+                        </a>
+
+                        <div class="projects-data">
+                            <h3 class="projects-name">Printsonalized</h3>
+                            <p class="projects-description">
+                                A personalized printing platform where users can customize designs and order printed products based on their preferences.
+                            </p>
+
+                            <ul class="projects-tags">
+                                <li>UX/UI</li>
+                                <li>E-Commerce</li>
+                                <li>Customization</li>
+                            </ul>
+
+                            <div class="projects-links">
+                                <a href="#" target="_blank" class="projects-github"><i class="ri-github-fill"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <!--==================== Certificates ====================-->
+        <section class="certificates section" id="certificates">
+    <div class="container">
+
+        <div class="certificates-heading">
+            <span class="about-no">04</span>
+            <span class="about-line"></span>
+            <h3 class="about-title">MY CERTIFICATES</h3>
+        </div>
+
+        <div class="certificates-container grid">
+
+            <article class="certificates-card">
+                <div class="certificates-card__top">
+                    <div class="certificates-icon"><i class="ri-award-fill"></i>
+                    </div>
+                    <span class="certificates-tag">CERT.01</span>
+                </div>
+
+                    <h3 class="certificates-title">Introduction to Git and GitHub</h3>
+
+                    <p class="certificates-description">Coursera</p>
+
+                    <div class="certificates-divider"></div>
+                
+                    <div class="certificates-card__bottom">
+                        <span class="certificates-year">
+                            <i class="ri-checkbox-circle-line"></i> 2025
+                        </span>
+                        <span class="certificates-id">Google</span>
+                    </div>
+            </article>
+
+            <article class="certificates-card">
+                <div class="certificates-card__top">
+                    <div class="certificates-icon"><i class="ri-award-fill"></i></div>
+                    <span class="certificates-tag">CERT.02</span>
+                </div>
+                <h3 class="certificates-title">Design Thinking for Innovation</h3>
+
+                <p class="certificates-description">Coursera</p>
+
+                <div class="certificates-divider"></div>
+                
+                <div class="certificates-card__bottom">
+                    <span class="certificates-year"><i class="ri-checkbox-circle-line"></i> 2024</span>
+                    <span class="certificates-id">University of Virginia</span>
+                </div>
+            </article>
+
+            <article class="certificates-card">
+                <div class="certificates-card__top">
+                    <div class="certificates-icon"><i class="ri-award-fill"></i></div>
+                    <span class="certificates-tag">CERT.03</span>
+                </div>
+
+                <h3 class="certificates-title">Foundations of Sustainability</h3>
+
+                <p class="certificates-description">Coursera</p>
+
+                <div class="certificates-divider"></div>
+
+                <div class="certificates-card__bottom">
+                    <span class="certificates-year"><i class="ri-checkbox-circle-line"></i> 2026</span>
+                    <span class="certificates-id">University of Oxford</span>
+                </div>
+            </article>
+
+            <article class="certificates-card">
+                <div class="certificates-card__top">
+                    <div class="certificates-icon"><i class="ri-award-fill"></i></div>
+                    <span class="certificates-tag">CERT.04</span>
+                </div>
+
+                <h3 class="certificates-title">Basic Statistics</h3>
+
+                <p class="certificates-description">Coursera</p>
+
+                <div class="certificates-divider"></div>
+
+                <div class="certificates-card__bottom">
+                    <span class="certificates-year"><i class="ri-checkbox-circle-line"></i> 2025</span>
+                    <span class="certificates-id">University of Amsterdam</span>
+                </div>
+            </article>
+
+
+        </div>
+    </div>
+        </section>
+
+        <!--==================== contacts ====================-->
+        <section class="contact section" id="contacts">
+        <div class="contact-container container">
+
+            <div class="about-experience"> 
+                <span class="about-no">05</span> 
+                <span class="about-line"></span> 
+                <h3 class="about-title">CONTACT ME</h3> 
+            </div>
+
+            <div class="contact-content grid">
+                <div class="contact-group">
+                    <h2 class="section-title contact-section-title">
+                        Let's Work Together
+                    </h2>
+
+                    <div class="contact-data grid">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="ri-mail-line"></i>
+                            </span>
+                            <div>
+                                <h3 class="contact-title">E-mail</h3>
+                                <p class="contact-description">ejmacasa@mcm.edu.ph</p>
+                            </div>      
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="ri-phone-line"></i>
+                            </span>
+                            <div>
+                                <h3 class="contact-title">Phone</h3>
+                                <p class="contact-description">+63 9541758762</p>
+                            </div>      
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="ri-map-pin-line"></i>
+                            </span>
+                            <div>
+                                <h3 class="contact-title">Location</h3>
+                                <p class="contact-description">Davao, Philippines</p>
+                            </div>      
+                        </div>
+
+                    </div>
+                </div>
+
+                <form class="contact-form grid">
+                    <div class="contact-form-div">
+                        <label for="name" class="contact-label">Name</label>
+                        <input type="text" id="name" name="name" class="contact-input">
+                    </div>
+
+                    <div class="contact-form-div">
+                        <label for="email" class="contact-label">E-mail</label>
+                        <input type="email" id="email" name="email" class="contact-input">
+                    </div>
+
+                    <div class="contact-form-div">
+                        <label for="message" class="contact-label">Message</label>
+                        <textarea id="message" name="message" class="contact-input contact-area"></textarea>
+                    </div>
+
+                    <button type="submit" class="button contact-button">Send Message</button>
+
+                    <p class="contact-message"></p>
+                </form>
+            </div>
+
+        </div>
+        </section>
+
+    </main>
+
+    <!--footer-->
+
+    <footer class = "footer">
+        <div class="footer-container container">
+            <div class="footer-social">
+                <a
+                href="https://www.linkedin.com/in/eunice-joanne-macasa-683360327/"
+                target="_blank"
+                class="footer-link"
+                >   
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+                
+                <a
+                href="https://www.instagram.com/vlentineunjo/?hl=en"
+                target="_blank"
+                class="footer-link"
+                >   
+                    <i class="ri-instagram-fill"></i>
+                </a>
+
+                <a
+                href="https://github.com/yon813"
+                target="_blank"
+                class="footer-link"
+                >   
+                    <i class="ri-github-fill"></i>
+                </a>
+
+            </div>
+        
+            <p class="footer-copyright"> &copy; 2026 Eunice Joanne G. Macasa. All rights reserved</p>
+            <p class="footer-copyright">Developed by Eunice Joanne</p>
+        </div>
+    </footer>
+
+    <!--gsap-->
+
+    <!--count-->
+
+    <!--mix it up-->
+
+    <!--email jsr-->
+
+    <!--schrool-->
+
+    <!--Main js-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/nav.js"></script>
+
+    </body>
+</html>
